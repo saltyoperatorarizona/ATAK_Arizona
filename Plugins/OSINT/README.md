@@ -8,6 +8,22 @@
 
 ---
 
+## Download
+
+| Version | Type | Status |
+|---------|------|--------|
+| v5.6.3-BETA | Debug Signed | Available |
+| v5.6.3 | TAK.GOV Signed | Pending Approval |
+
+[Download OSINT-Plugin-v5.6.3-BETA.apk](OSINT-Plugin-v5.6.3-BETA.apk)
+
+> ⚠️ BETA — Requires SDK ATAK (Developer Build)
+> This beta APK is debug-signed and will NOT work with Play Store ATAK.
+> You must have the SDK developer build of ATAK installed on your device.
+> TAK.GOV signed release coming soon for Play Store ATAK compatibility.
+
+---
+
 ## About This Plugin
 
 OSINT is a free, open source intelligence feed aggregator for ATAK. It allows operators to consolidate multiple OSINT streams directly within the ATAK interface — news, threat intelligence, geopolitical analysis, and regional reporting — without ever leaving the app.
