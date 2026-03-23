@@ -22,11 +22,15 @@ Users can connect to live AIS data streams and display vessel positions, heading
 
 AIS-Direct supports multiple data source backends including AISStream (WebSocket), MarineTraffic, and direct NMEA/TCP connections, making it compatible with a wide range of AIS receivers and online services.
 
+![About This Plugin in-app screen](images/03_about_plugin.png)
+
 ---
 
 ## How to Access
 
 Once installed, open the ATAK Tools menu and tap **AIS-Direct** to launch the plugin. It sits alongside your other ATAK tools — including [OSINT](../OSINT) — for quick access during maritime operations.
+
+![ATAK Tools Menu showing AIS-Direct](images/01_atak_tools_menu.png)
 
 ---
 
@@ -37,6 +41,8 @@ The main panel displays the current connection status and stream configuration. 
 - **AISStream** — WebSocket-based live global AIS feed (wss://stream.aisstream.io/v0/stream)
 - **MarineTraffic** — Integration with MarineTraffic API
 - **NMEA/TCP** — Direct connection to a local AIS receiver or NMEA TCP feed
+
+![AIS-Direct Main Panel with stream tabs and filter options](images/02_ais_direct_panel.png)
 
 ---
 
@@ -79,6 +85,8 @@ Tapping the AISStream tab opens the stream configuration dialog:
 
 **Broadcast CoT** — When enabled, vessel positions are broadcast as Cursor on Target (CoT) events to your ATAK team network, enabling shared maritime awareness across all connected devices
 
+![AISStream Config — API Key, URL, and Broadcast CoT](images/04_aisstream_config_api.png)
+
 ---
 
 ## AIS Stream Filters
@@ -90,6 +98,8 @@ Advanced filtering options are available to narrow down vessel data:
 **Vessel Type Filter (AIS Codes)** — Filter by AIS vessel type codes to display only specific vessel categories (e.g., 30,60,70 for fishing, passenger, and cargo vessels)
 
 **Reset Defaults** — Clears all filter settings back to default values
+
+![AISStream Config — MMSI Filter and Vessel Type Filter](images/05_aisstream_config_filters.png)
 
 ---
 
