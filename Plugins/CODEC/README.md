@@ -179,9 +179,9 @@ Stephan Pellegrini is a military defense professional with 14+ years of experien
 
 | Plugin | Description | Status |
 |--------|-------------|--------|
-| [OSINT](../OSINT/) | Open source intelligence feed aggregator, 80 preset RSS feeds across Defense, Intel, Geopolitics and Regional | Available (BETA) |
-| AIS-Direct | Vessel tracking via AIS data feeds, CoT markers on the ATAK map | In Development |
-| CODEC | Team biometric monitoring via BLE HR sensors | This plugin |
+| [OSINT](../OSINT/) | Open source intelligence feed aggregator, 80 preset RSS feeds across Defense, Intel, Geopolitics and Regional | Available (BETA) — TAK.GOV Submitted |
+| [AIS-Direct](../AIS-Direct/) | Vessel tracking via AIS data feeds, CoT markers on the ATAK map | Available (BETA) — TAK.GOV Submitted |
+| CODEC | Team biometric monitoring via BLE HR sensors | Available (BETA) — Testing In Progress |
 
 ---
 
