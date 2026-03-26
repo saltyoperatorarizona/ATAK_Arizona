@@ -14,7 +14,7 @@
 |---------|------|--------|
 | v5.6.3 | Blue Shield (TAK.GOV Approved) | Available on GitHub |
 
-Download the APK from the [Releases](../../releases) page of this repository. Blue Shield certificate — TAK.GOV approved, same trust level as the official Meshtastic ATAK plugin. Compatible with Play Store ATAK (ATAK-CIV). Sideload ready.
+Download the APK from the [Releases](https://github.com/saltyoperatorarizona/SaltyOperator-ATAK/releases) page of this repository. Blue Shield certificate — TAK.GOV approved, same trust level as the official Meshtastic ATAK plugin. Compatible with Play Store ATAK (ATAK-CIV). Sideload ready.
 
 ---
 
@@ -56,7 +56,7 @@ Control how frequently your feeds update. Options range from Auto (1 min) for li
 
 ## About the Developer
 
-Stephan Pellegrini is a military defense professional with extensive experience in ISR systems, situational awareness platforms, and tactical operations. Passionate about ATAK and the broader TAK ecosystem, he developed this plugin as a free resource for the operator community. Additional plugins are currently in development, including AIS vessel tracking and team health monitoring integrations.
+Stephan Pellegrini is a military defense professional with extensive experience in ISR systems, situational awareness platforms, and tactical operations. Passionate about ATAK and the broader TAK ecosystem, he develops free plugins for the operator community.
 
 ## Contact & License
 
