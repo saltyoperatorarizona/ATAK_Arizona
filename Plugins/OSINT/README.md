@@ -12,7 +12,7 @@
 
 | Version | Type | Status |
 |---------|------|--------|
-| v5.6.3 | Blue Shield (TAK.GOV Approved) | Available on GitHub |
+| v5.6.8 | Blue Shield (TAK.GOV Approved) | Available on GitHub |
 
 Download the APK from the [Releases](https://github.com/saltyoperatorarizona/SaltyOperator-ATAK/releases) page of this repository. Blue Shield certificate — TAK.GOV approved, same trust level as the official Meshtastic ATAK plugin. Compatible with Play Store ATAK (ATAK-CIV). Sideload ready.
 
