@@ -1,11 +1,11 @@
 # AIS-Direct Plugin for ATAK
-**Version:** 0.1 — ATAK-CIV | Free & Open Source
+**Version:** 3.0 — ATAK-CIV | Free & Open Source
 
 ## Download
 
 | Version | Type | Status |
 |---------|------|--------|
-| v0.1 | Blue Shield (TAK.GOV Approved) | Available on GitHub |
+| v3.0 | Blue Shield (TAK.GOV Approved) | Available on GitHub |
 
 Download the APK from the **[Releases](https://github.com/saltyoperatorarizona/SaltyOperator-ATAK/releases)** page of this repository.
 
