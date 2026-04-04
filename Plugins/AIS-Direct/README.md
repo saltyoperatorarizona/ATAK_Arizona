@@ -1,15 +1,15 @@
 # AIS-Direct Plugin for ATAK
-**Version:** 1.0 — ATAK-CIV | Free & Open Source
+**Version:** 0.1 — ATAK-CIV | Free & Open Source
 
 ## Download
 
 | Version | Type | Status |
 |---------|------|--------|
-| v1.0 | Debug Signed | Available on GitHub |
+| v0.1 | Blue Shield (TAK.GOV Approved) | Available on GitHub |
 
 Download the APK from the **[Releases](https://github.com/saltyoperatorarizona/SaltyOperator-ATAK/releases)** page of this repository.
 
-AIS-Direct is distributed here on GitHub. It is not available on the Play Store or through TAK.GOV for public download. The APK has been submitted to TAK.GOV solely for debugging and Blue Shield certificate verification purposes.
+Blue Shield certificate — TAK.GOV approved, same trust level as the official Meshtastic ATAK plugin. Compatible with Play Store ATAK (ATAK-CIV). Sideload ready.
 
 ---
 
@@ -39,4 +39,3 @@ Three data source tabs are available at the top:
 The FILTER section provides two options:
 - **All Vessels** — Displays every AIS-broadcasting vessel within your configured range and location
 - **Military** — Instantly filters the map to show only military vessels, enabling rapid maritime domain awareness in operational environments
-
