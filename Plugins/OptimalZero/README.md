@@ -26,24 +26,24 @@ Tap the **Optimal Zero** icon in the ATAK Tools menu to open the plugin side pan
 
 ## Features
 
-- **Optic type selection** Red Dot MPBR fully implemented; BDC Reticle, MOA Reticle, and Mil Reticle modes are Phase 2
-- **Full ammo database** caliber-specific G1 BC and per-load MV curves by barrel length
-- **Barrel length 4" to 24"** covers PDW, pistol, PCC, carbine, and precision rifle with automatic MV calculation per caliber and load
-- **MV override field** enter chronograph-verified velocity to bypass the auto-calculated MV
-- **Optic mount cowitness** Absolute / Lower 1/3 / Other with Height Over Bore and Riser Height inputs
-- **Vital zone input** define the MPBR hit envelope in inches
-- **CALCULATE MPBR button** gold, the only color in an otherwise black/gray tactical UI
-- **Solution output** optimal zero (yd and m), MPBR distance (yd and m), near zero distance
-- **Drop table** in-zone indicators at standard distances from 25 to 500yd
-- **Trajectory chart** full rendered arc showing bullet path with zero distance marked
+- **Optic type selection** — Red Dot MPBR fully implemented; BDC Reticle, MOA Reticle, and Mil Reticle modes are Phase 2
+- **Full ammo database** — caliber-specific G1 BC and per-load MV curves by barrel length
+- **Barrel length 4" to 24"** — covers PDW, pistol, PCC, carbine, and precision rifle with automatic MV calculation per caliber and load
+- **MV override field** — enter chronograph-verified velocity to bypass the auto-calculated MV
+- **Optic mount cowitness** — Absolute / Lower 1/3 / Other with Height Over Bore and Riser Height inputs
+- **Vital zone input** — define the MPBR hit envelope in inches
+- **CALCULATE MPBR button** — gold, the only color in an otherwise black/gray tactical UI
+- **Solution output** — optimal zero (yd and m), MPBR distance (yd and m), near zero distance
+- **Drop table** — in-zone indicators (✓/✗) at standard distances from 25 to 500yd
+- **Trajectory chart** — full rendered arc showing bullet path with zero distance marked
 
 ---
 
 ## Screenshot Walkthrough
 
-### Plugin Open Side Panel
+### Plugin Open — Side Panel
 
-The plugin opens in the ATAK side panel showing the OPTIMAL ZERO header, MPBR BALLISTIC CALCULATOR subtitle, OPTIC TYPE showing "Red Dot MPBR optimize", and WEAPON/AMMUNITION showing "9mm / 147gr FMJ (Subsonic)".
+The plugin opens in the ATAK side panel showing the OPTIMAL ZERO header, MPBR BALLISTIC CALCULATOR subtitle, OPTIC TYPE showing "Red Dot — MPBR optimize", and WEAPON/AMMUNITION showing "9mm / 147gr FMJ (Subsonic)".
 
 ![Plugin Open](images/01_plugin_open.png)
 
@@ -53,7 +53,7 @@ The plugin opens in the ATAK side panel showing the OPTIMAL ZERO header, MPBR BA
 
 Tap the OPTIC TYPE field to open the dropdown. Available selections:
 
-- Red Dot MPBR optimize *(fully implemented)*
+- Red Dot — MPBR optimize *(fully implemented)*
 - BDC Reticle *(Phase 2)*
 - MOA Reticle *(Phase 2)*
 - Mil Reticle *(Phase 2)*
@@ -86,7 +86,7 @@ OPTIC MOUNT set to Lower 1/3, with HEIGHT OVER BORE at 1.5", RISER HEIGHT at 0, 
 
 ---
 
-### Calculate MPBR Solution Output
+### Calculate MPBR — Solution Output
 
 Tap the gold **CALCULATE MPBR** button to generate the ballistic solution. Example output for 9mm/147gr Subsonic, 5" barrel, 980fps, HOB 1.50", VZ 3":
 
@@ -100,7 +100,7 @@ Tap the gold **CALCULATE MPBR** button to generate the ballistic solution. Examp
 
 ### Drop Table
 
-The SOLUTION includes a full DROP TABLE at 25yd–75yd increments showing bullet drop in inches and in-zone checkmarks at each distance.
+The SOLUTION includes a full DROP TABLE at 25yd–75yd increments showing bullet drop in inches and in-zone checkmarks (✓) at each distance.
 
 ![Drop Table](images/07_drop_table.png)
 
