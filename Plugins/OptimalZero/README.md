@@ -12,7 +12,7 @@
 
 ## About This Plugin
 
-Optimal Zero is a free ATAK-CIV plugin that implements a G1 ballistics engine to calculate the optimal zero distance for Maximum Point Blank Range (MPBR). Enter your optic type, caliber, load, barrel length, optic mount, and vital zone â the plugin returns your optimal zero distance, MPBR distance, a drop table at standard intervals, and a full rendered trajectory chart.
+Optimal Zero is a free ATAK-CIV plugin that implements a G1 ballistics engine to calculate the optimal zero distance for Maximum Point Blank Range (MPBR). Enter your optic type, caliber, load, barrel length, optic mount, and vital zone — the plugin returns your optimal zero distance, MPBR distance, a drop table at standard intervals, and a full rendered trajectory chart.
 
 Built for ATAK 5.6, targeting operators who need fast, accurate ballistic solutions directly in their tactical interface without leaving the map environment.
 
@@ -100,7 +100,7 @@ Tap the gold **CALCULATE MPBR** button to generate the ballistic solution. Examp
 
 ### Drop Table
 
-The SOLUTION includes a full DROP TABLE at 25ydâ75yd increments showing bullet drop in inches and in-zone checkmarks at each distance.
+The SOLUTION includes a full DROP TABLE at 25yd–75yd increments showing bullet drop in inches and in-zone checkmarks at each distance.
 
 ![Drop Table](images/07_drop_table.png)
 
@@ -122,8 +122,8 @@ The TRAJECTORY chart renders a full bullet arc from 0 to 600+ yards with the 65y
 | 7.62x51 NATO | 147gr FMJ (M80), 168gr HPBT (M118LR), .308 Win 175gr HPBT |
 | 7.62x39 | 123gr FMJ, 123gr HP, 154gr SP |
 | 300 BLK Supersonic | 110gr V-MAX, 125gr, 150gr FMJBT |
-| 300 BLK Subsonic | 190gr, 208gr, 220gr â dedicated subsonic MV curve |
-| .277 Fury / 6.8x51 | 135gr OTM (SIG NGSW standard), 140gr OTM (match) â SIG SPEAR data, 13"â24" barrel, ~2830â3150fps |
+| 300 BLK Subsonic | 190gr, 208gr, 220gr — dedicated subsonic MV curve |
+| .277 Fury / 6.8x51 | 135gr OTM (SIG NGSW standard), 140gr OTM (match) — SIG SPEAR data, 13"–24" barrel, ~2830–3150fps |
 | 6.5 Creedmoor | 140gr ELD-M |
 | 5.7x28 | 27gr SS190 (P90 / Five-seveN), 40gr V-MAX (civilian) |
 | 9mm | 115gr FMJ, 124gr FMJ, 147gr FMJ Subsonic |
@@ -152,7 +152,7 @@ This plugin has been **approved by TAK.Gov** (TAK Product Center) and is availab
 
 - Red Dot MPBR mode is the only fully implemented optic type in v1.0; BDC, MOA, and Mil reticle modes are planned for Phase 2
 - All G1 ballistic coefficients and MV curves are sourced from manufacturer data and validated against published ballistic tables
-- The CALCULATE MPBR button is intentionally gold â the only color element in an otherwise black/gray tactical UI
+- The CALCULATE MPBR button is intentionally gold — the only color element in an otherwise black/gray tactical UI
 - Not affiliated with or endorsed by the TAK Product Center
 
 ---
