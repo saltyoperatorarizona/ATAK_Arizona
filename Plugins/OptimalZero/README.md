@@ -1,6 +1,6 @@
 # Optimal Zero MPBR Ballistic Calculator for ATAK
 
-**Version:** 1.0 â ATAK-CIV 5.6.0 | **Package:** com.optimalzero.plugin
+**Version:** 3.0 ATAK-CIV 5.6.0 | **Package:** com.optimalzero.plugin
 
 > ✅ **APPROVED BY TAK.GOV — NOW AVAILABLE FOR DOWNLOAD.** This plugin has been approved by the TAK Product Center and is available for installation via TAK.Gov.
 
