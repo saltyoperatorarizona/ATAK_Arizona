@@ -32,7 +32,7 @@ Weapons zero calculator for ATAK. Finds the optimal zero distance to maximize Ma
 
 ## Installation
 
-1. Download OptimalZero_v20.zip from the release below
+1. Download [OptimalZero_v20_approved.zip](https://github.com/saltyoperatorarizona/SaltyOperator-ATAK/releases/download/optimalzero-v20/OptimalZero_v20_approved.zip) from the release below
 2. Transfer to your Android device
 3. Open Files app on device
 4. Tap the zip file directly — ATAK will import automatically
