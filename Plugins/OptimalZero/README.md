@@ -71,4 +71,6 @@ Weapons zero calculator for ATAK. Finds the optimal zero distance to maximize Ma
 
 ## Developer
 
-Stephan Pellegrini
+Stephan Pellegrini — saltyoperatorarizona
+
+https://github.com/saltyoperatorarizona
