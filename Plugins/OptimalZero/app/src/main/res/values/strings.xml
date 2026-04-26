@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Optimal Zero</string>
+    <string name="app_desc">MPBR ballistic zero calculator for ATAK.</string>
+    <string name="versionName">1.0.0</string>
+</resources>

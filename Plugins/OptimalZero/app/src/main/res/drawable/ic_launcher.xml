@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Crosshair / reticle icon for Optimal Zero -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="48dp"
+    android:width="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Outer ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,2 C11.85,2 2,11.85 2,24 C2,36.15 11.85,46 24,46
+            C36.15,46 46,36.15 46,24 C46,11.85 36.15,2 24,2 Z
+            M24,42 C14.06,42 6,33.94 6,24 C6,14.06 14.06,6 24,6
+            C33.94,6 42,14.06 42,24 C42,33.94 33.94,42 24,42 Z" />
+
+    <!-- Inner ring -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,14 C18.48,14 14,18.48 14,24 C14,29.52 18.48,34 24,34
+            C29.52,34 34,29.52 34,24 C34,18.48 29.52,14 24,14 Z
+            M24,31 C20.13,31 17,27.87 17,24 C17,20.13 20.13,17 24,17
+            C27.87,17 31,20.13 31,24 C31,27.87 27.87,31 24,31 Z" />
+
+    <!-- Top tick -->
+    <path android:fillColor="#FFFFFF" android:pathData="M22.5,2 L25.5,2 L25.5,12 L22.5,12 Z" />
+    <!-- Bottom tick -->
+    <path android:fillColor="#FFFFFF" android:pathData="M22.5,36 L25.5,36 L25.5,46 L22.5,46 Z" />
+    <!-- Left tick -->
+    <path android:fillColor="#FFFFFF" android:pathData="M2,22.5 L12,22.5 L12,25.5 L2,25.5 Z" />
+    <!-- Right tick -->
+    <path android:fillColor="#FFFFFF" android:pathData="M36,22.5 L46,22.5 L46,25.5 L36,25.5 Z" />
+    <!-- Center dot -->
+    <path android:fillColor="#FFFFFF" android:pathData="M22,22 L26,22 L26,26 L22,26 Z" />
+
+</vector>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Windy Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WINDY WEBCAMS API"
+            android:textColor="#00BFFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="API Key (get free key at windy.com/webcams/api)"
+            android:textColor="#AAAAAA"
+            android:textSize="10sp"/>
+
+        <EditText
+            android:id="@+id/et_windy_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Windy API key"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#555555"
+            android:background="#333333"
+            android:padding="8dp"
+            android:inputType="textNoSuggestions"
+            android:fontFamily="monospace"
+            android:layout_marginTop="4dp"/>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#333333" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+
+        <!-- OSM Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OPENSTREETMAP (OVERPASS)"
+            android:textColor="#77DD77"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overpass API endpoint (default is public)"
+            android:textColor="#AAAAAA"
+            android:textSize="10sp"/>
+
+        <EditText
+            android:id="@+id/et_overpass_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="https://overpass-api.de/api/interpreter"
+            android:textColor="#FFFFFF"
+            android:background="#333333"
+            android:padding="8dp"
+            android:inputType="textUri"
+            android:fontFamily="monospace"
+            android:layout_marginTop="4dp"/>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#333333" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+
+        <!-- KMZ Section -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KMZ / KML FILE PATH"
+            android:textColor="#FFAA00"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full path to KMZ file (e.g. AZ511 camera export)"
+            android:textColor="#AAAAAA"
+            android:textSize="10sp"/>
+
+        <EditText
+            android:id="@+id/et_kmz_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="/sdcard/Download/AZ511_Arizona_Complete_CCTV.kmz"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#555555"
+            android:background="#333333"
+            android:padding="8dp"
+            android:inputType="textUri"
+            android:fontFamily="monospace"
+            android:layout_marginTop="4dp"/>
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#333333" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+
+        <!-- CoT / Map Options -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAP OPTIONS"
+            android:textColor="#FFCC00"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:paddingBottom="4dp"/>
+
+        <CheckBox
+            android:id="@+id/cb_post_cot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post cameras as CoT markers on map"
+            android:textColor="#CCCCCC"
+            android:checked="true"
+            android:textSize="12sp"/>
+
+        <CheckBox
+            android:id="@+id/cb_osm_no_stream_only"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip OSM cameras with no stream URL"
+            android:textColor="#CCCCCC"
+            android:checked="false"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+</ScrollView>

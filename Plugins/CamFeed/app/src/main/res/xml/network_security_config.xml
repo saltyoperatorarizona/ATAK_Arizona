@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">cwwp2.dot.ca.gov</domain>
+        <domain includeSubdomains="true">az511.gov</domain>
+        <domain includeSubdomains="true">trafficvision.azdot.gov</domain>
+        <domain includeSubdomains="true">i5.nyctmc.org</domain>
+    </domain-config>
+</network-security-config>

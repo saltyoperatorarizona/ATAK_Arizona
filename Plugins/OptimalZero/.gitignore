@@ -1,0 +1,9 @@
+local.properties
+build/
+app/build/
+.gradle/
+.takdev/
+.idea/
+*.iml
+.DS_Store
+app/libs/main.jar

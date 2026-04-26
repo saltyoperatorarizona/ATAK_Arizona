@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Header -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CamFeed"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:paddingBottom="6dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version 1.0 — ATAK-CIV"
+                android:textColor="#AAAAAA"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:paddingBottom="16dp"/>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="#333333" android:layout_marginBottom="20dp"/>
+
+            <!-- About This Plugin -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About This Plugin"
+                android:textColor="#CC2200"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CamFeed is a free, open source bulk public camera feed aggregator for ATAK. It queries multiple data sources to discover publicly accessible webcams and surveillance cameras near any map location, displaying them as CoT markers and providing direct stream access from within the ATAK interface."
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:lineSpacingMultiplier="1.4"
+                android:paddingBottom="14dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Supports three sources: Windy Webcams API (50,000+ public webcams worldwide, API key required), OpenStreetMap Overpass (surveillance nodes tagged as public), and KMZ/KML file import for local camera lists such as AZ511 traffic feeds. Cameras are displayed with live snapshot refresh and stream viewer built into the plugin."
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:lineSpacingMultiplier="1.4"
+                android:paddingBottom="20dp"/>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="#333333" android:layout_marginBottom="20dp"/>
+
+            <!-- How to Use -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How to Use"
+                android:textColor="#CC2200"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Tap ⚙ Settings and enter your Windy API key\n2. Set a KMZ file path if using local camera data\n3. Select Map Center or GPS as your reference point\n4. Enter a search radius in kilometers\n5. Enable the sources you want (W / O / K)\n6. Tap FETCH CAMERAS to load results\n7. Cameras populate the list and appear on the ATAK map\n8. Tap ▶ on any row to open the live stream viewer"
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:lineSpacingMultiplier="1.5"
+                android:paddingBottom="20dp"/>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="#333333" android:layout_marginBottom="20dp"/>
+
+            <!-- About the Developer -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About the Developer"
+                android:textColor="#CC2200"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stephan Pellegrini is a military defense professional with extensive experience in ISR systems, situational awareness platforms, and tactical operations. Passionate about ATAK and the broader TAK ecosystem, he developed this plugin as a free resource for the operator community."
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:lineSpacingMultiplier="1.4"
+                android:paddingBottom="14dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Additional plugins are currently in development, including AIS vessel tracking, OSINT feed aggregation, and team health monitoring integrations."
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:lineSpacingMultiplier="1.4"
+                android:paddingBottom="20dp"/>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="#333333" android:layout_marginBottom="20dp"/>
+
+            <!-- Contact -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textColor="#CC2200"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="saltyoperatorarizona@gmail.com"
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:paddingBottom="6dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="github.com/saltyoperatorarizona"
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:paddingBottom="20dp"/>
+
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:background="#333333" android:layout_marginBottom="20dp"/>
+
+            <!-- License -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="License"
+                android:textColor="#CC2200"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="This plugin is provided free of charge with no warranty. All data sources are publicly accessible. Use at your own discretion. Not affiliated with or endorsed by the TAK Product Center."
+                android:textColor="#DDDDDD"
+                android:textSize="15sp"
+                android:lineSpacingMultiplier="1.4"
+                android:paddingBottom="24dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btn_about_back"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="← Back"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:background="#1A1A1A"
+        android:layout_margin="0dp"/>
+
+</LinearLayout>

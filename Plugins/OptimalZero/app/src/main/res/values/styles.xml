@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base plugin theme — transparent/no-title so ATAK chrome shows through -->
+    <style name="ATAKPluginTheme" parent="android:Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Application-level theme used in AndroidManifest -->
+    <style name="AppTheme" parent="ATAKPluginTheme" />
+
+    <!-- Custom spinner: selected-item view -->
+    <style name="ATAKSpinnerItem">
+        <item name="android:textColor">#DDDDDD</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+
+    <!-- Custom spinner: dropdown popup item -->
+    <style name="ATAKSpinnerDropDownItem">
+        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:background">#1A1A2E</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+
+    <!-- Spinner widget style (background drawable) -->
+    <style name="ATAKSpinner">
+        <item name="android:background">@drawable/input_bg</item>
+        <item name="android:popupBackground">#111111</item>
+    </style>
+
+    <!-- EditText style -->
+    <style name="ATAKEditText">
+        <item name="android:background">@drawable/input_bg</item>
+        <item name="android:textColor">#DDDDDD</item>
+        <item name="android:textColorHint">#444444</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+        <item name="android:paddingStart">10dp</item>
+        <item name="android:paddingEnd">6dp</item>
+    </style>
+
+    <!-- Popup menu text appearance -->
+    <style name="PopupMenuTextAppearance">
+        <item name="android:textColor">#EEEEEE</item>
+        <item name="android:textSize">@dimen/fontSize</item>
+    </style>
+
+</resources>

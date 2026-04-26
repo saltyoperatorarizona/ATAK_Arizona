@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Camera body — outline only, transparent fill so ATAK tint shows as outline -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round"
+        android:pathData="M4,16 Q4,13 7,13 L14,13 L17,9 L31,9 L34,13 L41,13 Q44,13 44,16 L44,38 Q44,41 41,41 L7,41 Q4,41 4,38 Z"/>
+
+    <!-- Lens outer ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M24,27 A9,9 0 1,0 24.001,27 Z"/>
+
+    <!-- Lens inner ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M24,27 A5.5,5.5 0 1,0 24.001,27 Z"/>
+
+    <!-- Lens center dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,27 A2,2 0 1,0 24.001,27 Z"/>
+
+    <!-- Flash indicator — small square top-right -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M36,15 L40,15 L40,19 L36,19 Z"/>
+
+</vector>
