@@ -1,6 +1,6 @@
 # OptimalZero — ATAK MPBR Ballistics Plugin
 
-Version 19 | April 25, 2026 | TAK.gov Approved
+Version 20 | April 26, 2026 | TAK.gov Approved
 
 Weapons zero calculator for ATAK. Finds the optimal zero distance to maximize Max Point Blank Range (MPBR) for your specific rifle setup.
 
@@ -13,27 +13,26 @@ Weapons zero calculator for ATAK. Finds the optimal zero distance to maximize Ma
 ## Features
 
 - G1 ballistic drag model (JBM/Ingalls standard)
-- 16 preset cartridges:
-  - 5.56x45: M193 55gr, M855 62gr, 70gr TSX, Mk262 77gr
-  - 7.62x51: M80 147gr, M118LR 168gr, 175gr HPBT
+- 35 preset cartridges across 10 calibers:
+  - 5.56x45: 50gr V-Max, M193 55gr, M855 62gr, 69gr SMK, 70gr TSX, Mk262 77gr, 75gr BTHP
+  - 7.62x51: 147gr M80, 150gr SP, 165gr BTSP, 168gr M118LR, 175gr SMK, 175gr HPBT, 185gr Berger
   - 7.62x39: 123gr FMJ
-  - 300 BLK: 125gr Supersonic, 220gr Subsonic
-  - 6.5 Creedmoor: 140gr ELD-M
-  - 9mm: 115gr FMJ, 124gr FMJ, 147gr Subsonic
-  - 5.7x28: 27gr HP, 40gr FMJ (SS190)
-- 25 barrel length options including fractional sizes:
-  7", 7.5", 8", 8.5", 9", 9.5", 10", 10.3", 10.5",
-  11", 11.2", 11.5", 12", 12.5", 13", 13.5", 14",
-  14.2", 14.5", 16", 18", 20", 22", 24", 26"
+  - 300 BLK: 110gr V-Max, 125gr Supersonic, 150gr TTSX, 190gr Subsonic, 208gr A-MAX Sub, 220gr Subsonic
+  - 6.5 Creedmoor: 120gr Nosler BT, 130gr Berger Hybrid, 140gr ELD-M, 143gr ELD-X
+  - 9mm: 115gr FMJ, 124gr FMJ, 147gr FMJ, 147gr Subsonic
+  - 5.7x28: 27gr HP, 40gr FMJ SS190
+  - .338 Lapua: 250gr HPBT, 285gr HPBT
+  - .50 BMG: 660gr FMJ M33, 750gr A-Max
+- 33 barrel length options from 3.5 to 26 inches including fractional sizes
 - Barrel length to muzzle velocity lookup with manual override
 - Height over bore and riser height inputs
-- Vital zone input (default 6")
+- Vital zone input (default 6 inches)
 - Trajectory chart with vital zone band overlay
 - Drop table at standard distances with in-zone indicator
 
 ## Installation
 
-1. Download OptimalZero_v19.zip from the release below
+1. Download OptimalZero_v20.zip from the release below
 2. Transfer to your Android device
 3. Open Files app on device
 4. Tap the zip file directly — ATAK will import automatically
@@ -41,33 +40,33 @@ Weapons zero calculator for ATAK. Finds the optimal zero distance to maximize Ma
 
 ## Validation Test
 
-- Barrel: 10.5"
+- Barrel: 10.5 inch
 - Ammo: 5.56x45 / 55gr M193
-- HOB: 3.475"
-- Vital Zone: 6"
+- HOB: 3.475 inch
+- Vital Zone: 6 inch
 - Expected: ~50yd zero, ~250-260yd MPBR
 
 ## Changelog
 
+### v20 (April 26, 2026)
+
+- Expanded to 35 cartridges across 10 calibers
+- 300 BLK expanded from 2 to 6 loads
+- Added .338 Lapua and .50 BMG calibers
+- Expanded 6.5 CM, 7.62x51, 5.56x45, 9mm grain weight selections
+- Barrel lengths expanded to 33 options from 3.5 to 26 inches
+- Short barrel support added: 3.5, 4, 4.5, 5, 5.5, 6, 6.5 inch
+
 ### v19 (April 25, 2026)
 
-- Added 4 new cartridges: 9mm 147gr Subsonic, 5.56x45 70gr TSX, 5.7x28 27gr HP, 5.7x28 40gr FMJ (SS190)
-- Expanded barrel length options to 25 choices including fractional sizes: 10.3", 10.5", 11.2", 12.5", 13.5", 14.2", 14.5" and more
-- Added fractional barrel display (10.5" instead of 10")
-- Added .45 ACP and 5.7x28 MV lookup tables
+- Added 9mm 147gr Subsonic, 5.56x45 70gr TSX, 5.7x28 27gr HP, 5.7x28 40gr SS190
+- Expanded barrel options to 25 with fractional sizes
 
 ### v18 (April 25, 2026)
 
-- Fixed compatibility with Play Store ATAK 5.5+ and 5.6.0.x
-- Added -applymapping ProGuard for correct runtime obfuscation
-- Fixed icon drawable (resolves InflateException on Play Store ATAK)
-- Fixed PluginLayoutInflater import path
-- Fixed SDK bundling — compileOnly only
+- Fixed Play Store ATAK 5.5+ compatibility
+- ProGuard obfuscation mapping fix
 - TAK.gov approved and signed
-
-### Previous versions
-
-- v1-v17: Various build and compatibility issues resolved in v18
 
 ## Developer
 
